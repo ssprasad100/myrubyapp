@@ -1,0 +1,395 @@
+I, [2019-04-10T10:47:10.861760 #16900]  INFO -- : Refreshing Gem list
+/usr/local/rvm/gems/ruby-2.4.1/gems/execjs-2.7.0/lib/execjs/runtimes.rb:58:in `autodetect': Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable)
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/execjs-2.7.0/lib/execjs.rb:5:in `<module:ExecJS>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/execjs-2.7.0/lib/execjs.rb:4:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `block in require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/uglifier-4.1.20/lib/uglifier.rb:5:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:81:in `block (2 levels) in require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:76:in `each'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:76:in `block in require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:65:in `each'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:65:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler.rb:114:in `require'
+	from /root/example/config/application.rb:7:in `<top (required)>'
+	from /root/example/config/environment.rb:2:in `require_relative'
+	from /root/example/config/environment.rb:2:in `<top (required)>'
+	from config.ru:4:in `require_relative'
+	from config.ru:4:in `block in <main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn.rb:54:in `eval'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn.rb:54:in `block in builder'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/http_server.rb:794:in `build_app!'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/http_server.rb:141:in `start'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/bin/unicorn:128:in `<top (required)>'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/unicorn:23:in `load'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/unicorn:23:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:24:in `eval'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:24:in `<main>'
+F, [2019-04-10T11:16:29.240510 #17732] FATAL -- : error adding listener addr=/root/example/shared/sockets/unicorn.sock/
+/usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/socket_helper.rb:138:in `initialize': No such file or directory - connect(2) for /root/example/shared/sockets/unicorn.sock/ (Errno::ENOENT)
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/socket_helper.rb:138:in `new'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/socket_helper.rb:138:in `bind_listen'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/http_server.rb:243:in `listen'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/http_server.rb:850:in `block in bind_new_listeners!'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/http_server.rb:850:in `each'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/http_server.rb:850:in `bind_new_listeners!'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/http_server.rb:142:in `start'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/bin/unicorn:128:in `<top (required)>'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/unicorn:23:in `load'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/unicorn:23:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:24:in `eval'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:24:in `<main>'
+I, [2019-04-10T11:17:29.684304 #17769]  INFO -- : Refreshing Gem list
+/usr/local/rvm/gems/ruby-2.4.1/gems/execjs-2.7.0/lib/execjs/runtimes.rb:58:in `autodetect': Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable)
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/execjs-2.7.0/lib/execjs.rb:5:in `<module:ExecJS>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/execjs-2.7.0/lib/execjs.rb:4:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `block in require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/uglifier-4.1.20/lib/uglifier.rb:5:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:81:in `block (2 levels) in require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:76:in `each'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:76:in `block in require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:65:in `each'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:65:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler.rb:114:in `require'
+	from /root/example/config/application.rb:7:in `<top (required)>'
+	from /root/example/config/environment.rb:2:in `require_relative'
+	from /root/example/config/environment.rb:2:in `<top (required)>'
+	from config.ru:4:in `require_relative'
+	from config.ru:4:in `block in <main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn.rb:54:in `eval'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn.rb:54:in `block in builder'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/http_server.rb:794:in `build_app!'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/http_server.rb:141:in `start'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/bin/unicorn:128:in `<top (required)>'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/unicorn:23:in `load'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/unicorn:23:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:24:in `eval'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:24:in `<main>'
+I, [2019-04-10T11:19:01.583808 #17812]  INFO -- : Refreshing Gem list
+/usr/local/rvm/gems/ruby-2.4.1/gems/execjs-2.7.0/lib/execjs/runtimes.rb:58:in `autodetect': Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable)
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/execjs-2.7.0/lib/execjs.rb:5:in `<module:ExecJS>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/execjs-2.7.0/lib/execjs.rb:4:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `block in require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/uglifier-4.1.20/lib/uglifier.rb:5:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:81:in `block (2 levels) in require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:76:in `each'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:76:in `block in require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:65:in `each'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:65:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler.rb:114:in `require'
+	from /root/example/config/application.rb:7:in `<top (required)>'
+	from /root/example/config/environment.rb:2:in `require_relative'
+	from /root/example/config/environment.rb:2:in `<top (required)>'
+	from config.ru:4:in `require_relative'
+	from config.ru:4:in `block in <main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn.rb:54:in `eval'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn.rb:54:in `block in builder'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/http_server.rb:794:in `build_app!'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/http_server.rb:141:in `start'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/bin/unicorn:128:in `<top (required)>'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/unicorn:23:in `load'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/unicorn:23:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:24:in `eval'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:24:in `<main>'
+I, [2019-04-10T11:20:15.594991 #17853]  INFO -- : Refreshing Gem list
+/usr/local/rvm/gems/ruby-2.4.1/gems/execjs-2.7.0/lib/execjs/runtimes.rb:58:in `autodetect': Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable)
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/execjs-2.7.0/lib/execjs.rb:5:in `<module:ExecJS>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/execjs-2.7.0/lib/execjs.rb:4:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `block in require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/uglifier-4.1.20/lib/uglifier.rb:5:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bootsnap-1.4.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:81:in `block (2 levels) in require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:76:in `each'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:76:in `block in require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:65:in `each'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler/runtime.rb:65:in `require'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/bundler-2.0.1/lib/bundler.rb:114:in `require'
+	from /root/example/config/application.rb:7:in `<top (required)>'
+	from /root/example/config/environment.rb:2:in `require_relative'
+	from /root/example/config/environment.rb:2:in `<top (required)>'
+	from config.ru:4:in `require_relative'
+	from config.ru:4:in `block in <main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn.rb:54:in `eval'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn.rb:54:in `block in builder'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/http_server.rb:794:in `build_app!'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/lib/unicorn/http_server.rb:141:in `start'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/unicorn-5.5.0/bin/unicorn:128:in `<top (required)>'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/unicorn:23:in `load'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/unicorn:23:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:24:in `eval'
+	from /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:24:in `<main>'
+I, [2019-04-10T11:25:30.143456 #18129]  INFO -- : Refreshing Gem list
+I, [2019-04-10T11:25:30.868681 #18129]  INFO -- : listening on addr=/root/example/shared/sockets/unicorn.sock fd=18
+I, [2019-04-10T11:25:30.868826 #18129]  INFO -- : worker=0 spawning...
+I, [2019-04-10T11:25:30.869955 #18129]  INFO -- : worker=1 spawning...
+I, [2019-04-10T11:25:30.870513 #18138]  INFO -- : worker=0 spawned pid=18138
+I, [2019-04-10T11:25:30.870671 #18138]  INFO -- : worker=0 ready
+I, [2019-04-10T11:25:30.871292 #18129]  INFO -- : master process ready
+I, [2019-04-10T11:25:30.871811 #18141]  INFO -- : worker=1 spawned pid=18141
+I, [2019-04-10T11:25:30.871952 #18141]  INFO -- : worker=1 ready
+I, [2019-04-10T13:51:03.401232 #18129]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2019-04-10T13:51:03.438182 #18129]  INFO -- : Refreshing Gem list
+I, [2019-04-10T13:51:03.445097 #18129]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2019-04-10T13:51:03.446962 #18129]  INFO -- : reaped #<Process::Status: pid 18138 exit 0> worker=0
+I, [2019-04-10T13:51:03.447022 #18129]  INFO -- : reaped #<Process::Status: pid 18141 exit 0> worker=1
+I, [2019-04-10T13:51:03.447110 #18129]  INFO -- : master complete
+I, [2019-04-10T14:58:06.660654 #4278]  INFO -- : Refreshing Gem list
+I, [2019-04-10T14:58:07.239843 #4278]  INFO -- : unlinking existing socket=/root/example/shared/sockets/unicorn.sock
+I, [2019-04-10T14:58:07.240173 #4278]  INFO -- : listening on addr=/root/example/shared/sockets/unicorn.sock fd=18
+I, [2019-04-10T14:58:07.240348 #4278]  INFO -- : worker=0 spawning...
+I, [2019-04-10T14:58:07.241728 #4278]  INFO -- : worker=1 spawning...
+I, [2019-04-10T14:58:07.242432 #4287]  INFO -- : worker=0 spawned pid=4287
+I, [2019-04-10T14:58:07.242604 #4287]  INFO -- : worker=0 ready
+I, [2019-04-10T14:58:07.243429 #4278]  INFO -- : master process ready
+I, [2019-04-10T14:58:07.244024 #4290]  INFO -- : worker=1 spawned pid=4290
+I, [2019-04-10T14:58:07.244265 #4290]  INFO -- : worker=1 ready
+I, [2019-04-10T16:02:35.636704 #4278]  INFO -- : reaped #<Process::Status: pid 4287 exit 0> worker=0
+I, [2019-04-10T16:02:35.636826 #4278]  INFO -- : reaped #<Process::Status: pid 4290 exit 0> worker=1
+I, [2019-04-10T16:02:35.636895 #4278]  INFO -- : master complete
+I, [2019-04-10T16:03:22.658378 #6219]  INFO -- : Refreshing Gem list
+I, [2019-04-10T16:03:23.159364 #6219]  INFO -- : listening on addr=/tmp/unicorn.sock fd=18
+I, [2019-04-10T16:03:23.160241 #6219]  INFO -- : worker=0 spawning...
+I, [2019-04-10T16:03:23.161504 #6219]  INFO -- : worker=1 spawning...
+I, [2019-04-10T16:03:23.162074 #6228]  INFO -- : worker=0 spawned pid=6228
+I, [2019-04-10T16:03:23.162242 #6228]  INFO -- : worker=0 ready
+I, [2019-04-10T16:03:23.162914 #6219]  INFO -- : master process ready
+I, [2019-04-10T16:03:23.163483 #6231]  INFO -- : worker=1 spawned pid=6231
+I, [2019-04-10T16:03:23.163617 #6231]  INFO -- : worker=1 ready
+I, [2019-04-10T16:08:46.873513 #6219]  INFO -- : reaped #<Process::Status: pid 6228 exit 0> worker=0
+I, [2019-04-10T16:08:46.873783 #6219]  INFO -- : reaped #<Process::Status: pid 6231 exit 0> worker=1
+I, [2019-04-10T16:08:46.873878 #6219]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2019-04-10T16:08:46.887051 #6219]  INFO -- : Refreshing Gem list
+I, [2019-04-10T16:08:46.893661 #6219]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2019-04-10T16:08:46.893786 #6219]  INFO -- : master complete
+I, [2019-04-10T16:10:15.842469 #3420]  INFO -- : Refreshing Gem list
+I, [2019-04-10T16:10:17.404327 #3420]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2019-04-10T16:10:17.405608 #3420]  INFO -- : listening on addr=/tmp/unicorn.sock fd=18
+I, [2019-04-10T16:10:17.405714 #3420]  INFO -- : worker=0 spawning...
+I, [2019-04-10T16:10:17.406842 #3420]  INFO -- : worker=1 spawning...
+I, [2019-04-10T16:10:17.407418 #3429]  INFO -- : worker=0 spawned pid=3429
+I, [2019-04-10T16:10:17.407576 #3429]  INFO -- : worker=0 ready
+I, [2019-04-10T16:10:17.408151 #3420]  INFO -- : master process ready
+I, [2019-04-10T16:10:17.408684 #3432]  INFO -- : worker=1 spawned pid=3432
+I, [2019-04-10T16:10:17.408829 #3432]  INFO -- : worker=1 ready
+103.117.218.57 - - [10/Apr/2019:16:10:43 +0000] "GET / HTTP/1.0" 500 87106 0.3254
+103.117.218.57 - - [10/Apr/2019:16:36:06 +0000] "GET / HTTP/1.0" 500 117482 0.1721
+I, [2019-04-10T16:37:00.639328 #3420]  INFO -- : reaped #<Process::Status: pid 3429 exit 0> worker=0
+I, [2019-04-10T16:37:00.639422 #3420]  INFO -- : reaped #<Process::Status: pid 3432 exit 0> worker=1
+I, [2019-04-10T16:37:00.639530 #3420]  INFO -- : master complete
+I, [2019-04-10T16:37:25.479775 #4215]  INFO -- : Refreshing Gem list
+I, [2019-04-10T16:37:26.024665 #4215]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2019-04-10T16:37:26.025073 #4215]  INFO -- : listening on addr=/tmp/unicorn.sock fd=18
+I, [2019-04-10T16:37:26.025192 #4215]  INFO -- : worker=0 spawning...
+I, [2019-04-10T16:37:26.026562 #4215]  INFO -- : worker=1 spawning...
+I, [2019-04-10T16:37:26.027203 #4224]  INFO -- : worker=0 spawned pid=4224
+I, [2019-04-10T16:37:26.027383 #4224]  INFO -- : worker=0 ready
+I, [2019-04-10T16:37:26.028175 #4215]  INFO -- : master process ready
+I, [2019-04-10T16:37:26.028826 #4227]  INFO -- : worker=1 spawned pid=4227
+I, [2019-04-10T16:37:26.028975 #4227]  INFO -- : worker=1 ready
+103.117.218.57 - - [10/Apr/2019:16:37:29 +0000] "GET / HTTP/1.0" 500 117482 0.2427
+I, [2019-04-10T16:41:43.486136 #4215]  INFO -- : reaped #<Process::Status: pid 4224 exit 0> worker=0
+I, [2019-04-10T16:41:43.486232 #4215]  INFO -- : reaped #<Process::Status: pid 4227 exit 0> worker=1
+I, [2019-04-10T16:41:43.486299 #4215]  INFO -- : master complete
+I, [2019-04-10T17:08:52.495267 #5661]  INFO -- : Refreshing Gem list
+I, [2019-04-10T17:08:52.962419 #5661]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2019-04-10T17:08:52.962593 #5661]  INFO -- : listening on addr=/tmp/unicorn.sock fd=18
+I, [2019-04-10T17:08:52.962684 #5661]  INFO -- : worker=0 spawning...
+I, [2019-04-10T17:08:52.963879 #5661]  INFO -- : worker=1 spawning...
+I, [2019-04-10T17:08:52.964439 #5670]  INFO -- : worker=0 spawned pid=5670
+I, [2019-04-10T17:08:52.964622 #5670]  INFO -- : worker=0 ready
+I, [2019-04-10T17:08:52.965301 #5661]  INFO -- : master process ready
+I, [2019-04-10T17:08:52.965831 #5673]  INFO -- : worker=1 spawned pid=5673
+I, [2019-04-10T17:08:52.965976 #5673]  INFO -- : worker=1 ready
+103.117.218.57 - - [10/Apr/2019:17:12:14 +0000] "GET / HTTP/1.0" 200 - 0.1229
+45.114.37.134 - - [10/Apr/2019:17:13:25 +0000] "HEAD /robots.txt HTTP/1.0" 200 98 0.0395
+189.236.126.0 - - [10/Apr/2019:17:16:10 +0000] "GET / HTTP/1.0" 200 - 0.2251
+I, [2019-04-10T18:41:09.769991 #5661]  INFO -- : reaped #<Process::Status: pid 5670 exit 0> worker=0
+I, [2019-04-10T18:41:09.770127 #5661]  INFO -- : reaped #<Process::Status: pid 5673 exit 0> worker=1
+I, [2019-04-10T18:41:09.770212 #5661]  INFO -- : master complete
+I, [2019-04-11T13:54:30.743149 #3644]  INFO -- : Refreshing Gem list
+I, [2019-04-11T13:54:32.400990 #3644]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2019-04-11T13:54:32.401145 #3644]  INFO -- : listening on addr=/tmp/unicorn.sock fd=18
+I, [2019-04-11T13:54:32.401257 #3644]  INFO -- : worker=0 spawning...
+I, [2019-04-11T13:54:32.402511 #3644]  INFO -- : worker=1 spawning...
+I, [2019-04-11T13:54:32.403100 #3653]  INFO -- : worker=0 spawned pid=3653
+I, [2019-04-11T13:54:32.403280 #3653]  INFO -- : worker=0 ready
+I, [2019-04-11T13:54:32.403900 #3644]  INFO -- : master process ready
+I, [2019-04-11T13:54:32.404524 #3656]  INFO -- : worker=1 spawned pid=3656
+I, [2019-04-11T13:54:32.404687 #3656]  INFO -- : worker=1 ready
+130.214.64.12 - - [11/Apr/2019:13:55:25 +0000] "GET / HTTP/1.0" 200 - 0.3026
+169.45.113.44 - - [11/Apr/2019:14:02:03 +0000] "GET / HTTP/1.0" 200 - 0.1893
+186.96.255.114 - - [11/Apr/2019:14:05:35 +0000] "GET / HTTP/1.0" 200 - 0.0079
+130.214.64.12 - - [11/Apr/2019:14:41:30 +0000] "GET / HTTP/1.0" 500 86141 0.1241
+130.214.64.12 - - [11/Apr/2019:14:42:39 +0000] "GET / HTTP/1.0" 200 - 0.2217
+130.214.64.12 - - [11/Apr/2019:14:42:40 +0000] "GET /rails-ujs.self-2b8935521e2301b06b45bd42e623eb0c0acf76c3a6ba383b7429c6a2884f8c23.js?body=1 HTTP/1.0" 200 27512 0.0049
+130.214.64.12 - - [11/Apr/2019:14:42:40 +0000] "GET /stylesheets/style.css HTTP/1.0" 404 23644 0.1132
+130.214.64.12 - - [11/Apr/2019:14:42:40 +0000] "GET /turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 200 38521 0.0044
+130.214.64.12 - - [11/Apr/2019:14:42:40 +0000] "GET /application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1 HTTP/1.0" 200 676 0.1594
+130.214.64.12 - - [11/Apr/2019:14:42:40 +0000] "GET /activestorage.self-1ed4604ac2170045f1ffca4edb81a75246661555e4f9cf682bb8a21825e32e1c.js?body=1 HTTP/1.0" 200 33313 0.0046
+130.214.64.12 - - [11/Apr/2019:14:42:40 +0000] "GET /cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 200 293 0.0031
+130.214.64.12 - - [11/Apr/2019:14:42:40 +0000] "GET /action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 200 20539 0.0039
+130.214.64.12 - - [11/Apr/2019:14:42:40 +0000] "GET /application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 200 635 0.0051
+130.214.64.12 - - [11/Apr/2019:14:42:40 +0000] "GET /assets/newapp-icon.png HTTP/1.0" 404 24232 0.0572
+130.214.64.12 - - [11/Apr/2019:14:42:40 +0000] "GET /stylesheets/style.css HTTP/1.0" 404 23644 0.0798
+130.214.64.12 - - [11/Apr/2019:14:46:42 +0000] "GET / HTTP/1.0" 200 - 0.0322
+130.214.64.12 - - [11/Apr/2019:14:46:42 +0000] "GET /assets/newapp-icon.png HTTP/1.0" 404 24232 0.0845
+130.214.64.12 - - [11/Apr/2019:14:46:42 +0000] "GET /stylesheets/style.css HTTP/1.0" 404 23644 0.0915
+88.231.161.156 - - [11/Apr/2019:16:24:07 +0000] "GET / HTTP/1.0" 200 - 0.0723
+152.250.80.9 - - [11/Apr/2019:17:08:17 +0000] "GET / HTTP/1.0" 200 - 0.0413
+179.228.213.50 - - [11/Apr/2019:17:12:58 +0000] "GET / HTTP/1.0" 200 - 0.0167
+68.183.66.192 - - [11/Apr/2019:17:13:22 +0000] "GET / HTTP/1.0" 200 - 0.0277
+209.17.96.186 - - [11/Apr/2019:18:25:46 +0000] "GET / HTTP/1.0" 200 - 0.0249
+185.234.218.253 - - [11/Apr/2019:18:32:16 +0000] "GET /PSIA/index HTTP/1.0" 404 23433 0.0466
+36.91.164.177 - - [11/Apr/2019:19:23:09 +0000] "GET / HTTP/1.0" 200 - 0.0161
+122.3.25.67 - - [11/Apr/2019:19:53:30 +0000] "GET / HTTP/1.0" 200 - 0.0159
+189.41.219.238 - - [11/Apr/2019:21:11:51 +0000] "GET / HTTP/1.0" 200 - 0.0209
+I, [2019-04-11T21:36:07.336002 #3644]  INFO -- : reaped #<Process::Status: pid 3653 exit 0> worker=0
+I, [2019-04-11T21:36:07.336097 #3644]  INFO -- : reaped #<Process::Status: pid 3656 exit 0> worker=1
+I, [2019-04-11T21:36:07.336171 #3644]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2019-04-11T21:36:07.355534 #3644]  INFO -- : Refreshing Gem list
+I, [2019-04-11T21:36:07.363275 #3644]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2019-04-11T21:36:07.363390 #3644]  INFO -- : master complete
+I, [2019-04-13T08:05:21.938937 #8039]  INFO -- : Refreshing Gem list
+I, [2019-04-13T08:05:23.276642 #8039]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2019-04-13T08:05:23.276858 #8039]  INFO -- : listening on addr=/tmp/unicorn.sock fd=18
+I, [2019-04-13T08:05:23.276948 #8039]  INFO -- : worker=0 spawning...
+I, [2019-04-13T08:05:23.280152 #8039]  INFO -- : worker=1 spawning...
+I, [2019-04-13T08:05:23.280877 #8048]  INFO -- : worker=0 spawned pid=8048
+I, [2019-04-13T08:05:23.281087 #8048]  INFO -- : worker=0 ready
+I, [2019-04-13T08:05:23.282763 #8039]  INFO -- : master process ready
+I, [2019-04-13T08:05:23.283380 #8051]  INFO -- : worker=1 spawned pid=8051
+I, [2019-04-13T08:05:23.283552 #8051]  INFO -- : worker=1 ready
+103.117.218.36 - - [13/Apr/2019:08:05:44 +0000] "GET / HTTP/1.0" 200 - 0.2813
+103.117.218.36 - - [13/Apr/2019:08:05:44 +0000] "GET /application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1 HTTP/1.0" 200 676 0.0033
+103.117.218.36 - - [13/Apr/2019:08:05:44 +0000] "GET /assets/newapp-icon.png HTTP/1.0" 404 27477 0.0960
+103.117.218.36 - - [13/Apr/2019:08:05:44 +0000] "GET /stylesheets/style.css HTTP/1.0" 404 26889 0.2289
+103.117.218.36 - - [13/Apr/2019:08:12:30 +0000] "GET / HTTP/1.0" 200 - 0.0511
+103.117.218.36 - - [13/Apr/2019:08:12:30 +0000] "GET /stylesheets/style.css HTTP/1.0" 404 26889 0.1177
+103.117.218.36 - - [13/Apr/2019:08:12:30 +0000] "GET /assets/newapp-icon.png HTTP/1.0" 404 27477 0.1246
+103.117.218.36 - - [13/Apr/2019:08:12:32 +0000] "GET / HTTP/1.0" 200 - 0.0249
+103.117.218.36 - - [13/Apr/2019:08:12:32 +0000] "GET /stylesheets/style.css HTTP/1.0" 404 26889 0.0876
+103.117.218.36 - - [13/Apr/2019:08:12:32 +0000] "GET /assets/newapp-icon.png HTTP/1.0" 404 27477 0.1187
+103.117.218.36 - - [13/Apr/2019:08:14:28 +0000] "GET / HTTP/1.0" 200 - 0.2038
+103.117.218.36 - - [13/Apr/2019:08:14:28 +0000] "GET /stylesheets/style.css HTTP/1.0" 404 26889 0.0683
+103.117.218.36 - - [13/Apr/2019:08:14:29 +0000] "GET /assets/newapp-icon.png HTTP/1.0" 404 27477 0.0950
+103.117.218.36 - - [13/Apr/2019:08:14:32 +0000] "GET / HTTP/1.0" 200 - 0.0148
+103.117.218.36 - - [13/Apr/2019:08:14:32 +0000] "GET /stylesheets/style.css HTTP/1.0" 404 26889 0.0835
+103.117.218.36 - - [13/Apr/2019:08:14:32 +0000] "GET /assets/newapp-icon.png HTTP/1.0" 404 27477 0.0870
+I, [2019-04-13T08:14:56.578762 #8039]  INFO -- : reaped #<Process::Status: pid 8048 exit 0> worker=0
+I, [2019-04-13T08:14:56.578857 #8039]  INFO -- : reaped #<Process::Status: pid 8051 exit 0> worker=1
+I, [2019-04-13T08:14:56.578945 #8039]  INFO -- : master complete
+I, [2019-04-13T08:15:30.544233 #8485]  INFO -- : Refreshing Gem list
+I, [2019-04-13T08:15:31.075897 #8485]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2019-04-13T08:15:31.077487 #8485]  INFO -- : listening on addr=/tmp/unicorn.sock fd=18
+I, [2019-04-13T08:15:31.077599 #8485]  INFO -- : worker=0 spawning...
+I, [2019-04-13T08:15:31.078889 #8485]  INFO -- : worker=1 spawning...
+I, [2019-04-13T08:15:31.079677 #8494]  INFO -- : worker=0 spawned pid=8494
+I, [2019-04-13T08:15:31.079870 #8494]  INFO -- : worker=0 ready
+I, [2019-04-13T08:15:31.080540 #8485]  INFO -- : master process ready
+I, [2019-04-13T08:15:31.081193 #8497]  INFO -- : worker=1 spawned pid=8497
+I, [2019-04-13T08:15:31.081345 #8497]  INFO -- : worker=1 ready
+103.117.218.36 - - [13/Apr/2019:08:15:35 +0000] "GET / HTTP/1.0" 200 - 0.2666
+103.117.218.36 - - [13/Apr/2019:08:15:35 +0000] "GET /assets/newapp-icon.png HTTP/1.0" 404 27477 0.0814
+103.117.218.36 - - [13/Apr/2019:08:15:35 +0000] "GET /stylesheets/style.css HTTP/1.0" 404 26889 0.2121
+103.117.218.36 - - [13/Apr/2019:08:15:43 +0000] "GET / HTTP/1.0" 200 - 0.0345
+103.117.218.36 - - [13/Apr/2019:08:15:43 +0000] "GET /application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1 HTTP/1.0" 200 676 0.0027
+103.117.218.36 - - [13/Apr/2019:08:15:43 +0000] "GET /stylesheets/style.css HTTP/1.0" 404 26889 0.0702
+103.117.218.36 - - [13/Apr/2019:08:15:43 +0000] "GET /turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 200 38521 0.0039
+103.117.218.36 - - [13/Apr/2019:08:15:43 +0000] "GET /activestorage.self-1ed4604ac2170045f1ffca4edb81a75246661555e4f9cf682bb8a21825e32e1c.js?body=1 HTTP/1.0" 200 33313 0.0034
+103.117.218.36 - - [13/Apr/2019:08:15:43 +0000] "GET /action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 200 20539 0.0029
+103.117.218.36 - - [13/Apr/2019:08:15:43 +0000] "GET /cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 200 293 0.0030
+103.117.218.36 - - [13/Apr/2019:08:15:43 +0000] "GET /application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 200 635 0.0057
+103.117.218.36 - - [13/Apr/2019:08:15:43 +0000] "GET /rails-ujs.self-2b8935521e2301b06b45bd42e623eb0c0acf76c3a6ba383b7429c6a2884f8c23.js?body=1 HTTP/1.0" 200 27512 0.1323
+103.117.218.36 - - [13/Apr/2019:08:15:43 +0000] "GET /assets/newapp-icon.png HTTP/1.0" 404 27477 0.0907
+103.117.218.36 - - [13/Apr/2019:08:15:43 +0000] "GET /stylesheets/style.css HTTP/1.0" 404 26889 0.0565
+103.117.218.36 - - [13/Apr/2019:08:18:45 +0000] "GET / HTTP/1.0" 401 - 0.0495
+103.117.218.36 - - [13/Apr/2019:08:19:03 +0000] "GET / HTTP/1.0" 200 - 0.0628
+103.117.218.36 - - [13/Apr/2019:08:19:03 +0000] "GET /stylesheets/style.css HTTP/1.0" 404 26889 0.0716
+103.117.218.36 - - [13/Apr/2019:08:19:03 +0000] "GET /assets/newapp-icon.png HTTP/1.0" 404 27477 0.0687
+103.117.218.36 - - [13/Apr/2019:08:19:18 +0000] "GET / HTTP/1.0" 401 - 0.0069
+103.117.218.36 - - [13/Apr/2019:08:19:29 +0000] "GET / HTTP/1.0" 200 - 0.0438
+103.117.218.36 - - [13/Apr/2019:08:19:29 +0000] "GET /application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css?body=1 HTTP/1.0" 200 676 0.0026
+103.117.218.36 - - [13/Apr/2019:08:19:29 +0000] "GET /rails-ujs.self-2b8935521e2301b06b45bd42e623eb0c0acf76c3a6ba383b7429c6a2884f8c23.js?body=1 HTTP/1.0" 200 27512 0.0035
+103.117.218.36 - - [13/Apr/2019:08:19:29 +0000] "GET /activestorage.self-1ed4604ac2170045f1ffca4edb81a75246661555e4f9cf682bb8a21825e32e1c.js?body=1 HTTP/1.0" 200 33313 0.0034
+103.117.218.36 - - [13/Apr/2019:08:19:29 +0000] "GET /turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 200 38521 0.0035
+103.117.218.36 - - [13/Apr/2019:08:19:29 +0000] "GET /action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 200 20539 0.0027
+103.117.218.36 - - [13/Apr/2019:08:19:29 +0000] "GET /cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 200 293 0.0027
+103.117.218.36 - - [13/Apr/2019:08:19:29 +0000] "GET /application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 200 635 0.0040
+103.117.218.36 - - [13/Apr/2019:08:19:29 +0000] "GET /stylesheets/style.css HTTP/1.0" 404 26889 0.1028
+103.117.218.36 - - [13/Apr/2019:08:19:29 +0000] "GET /assets/newapp-icon.png HTTP/1.0" 404 27477 0.0686
+125.231.5.137 - - [13/Apr/2019:08:56:05 +0000] "GET / HTTP/1.0" 401 - 0.0054
+13.232.20.181 - - [13/Apr/2019:08:57:41 +0000] "GET /wp-content/uploads/2018/11/logo.png HTTP/1.0" 404 26623 0.0498
+13.232.20.181 - - [13/Apr/2019:08:58:10 +0000] "GET /wp-content/uploads/2018/11/logo.png HTTP/1.0" 404 26623 0.0564
+122.161.35.214 - - [13/Apr/2019:08:58:50 +0000] "GET /wp-content/uploads/2018/11/logo.png HTTP/1.0" 404 26790 0.0492
+122.161.35.214 - - [13/Apr/2019:08:59:16 +0000] "GET /wp-content/uploads/2018/11/logo.png HTTP/1.0" 404 26701 0.0494
+122.161.35.214 - - [13/Apr/2019:09:00:10 +0000] "GET /contact-us HTTP/1.0" 404 26811 0.0535
+122.161.35.214 - - [13/Apr/2019:09:00:10 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0010
+5.188.210.101 - - [13/Apr/2019:09:19:10 +0000] "GET /echo.php HTTP/1.0" 404 26748 0.0629
+I, [2019-04-13T09:26:11.545759 #8485]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2019-04-13T09:26:11.557800 #8485]  INFO -- : Refreshing Gem list
+I, [2019-04-13T09:26:11.566105 #8485]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2019-04-13T09:26:11.669111 #8485]  INFO -- : reaped #<Process::Status: pid 8494 exit 0> worker=0
+I, [2019-04-13T09:26:11.669198 #8485]  INFO -- : reaped #<Process::Status: pid 8497 exit 0> worker=1
+I, [2019-04-13T09:26:11.669285 #8485]  INFO -- : master complete
