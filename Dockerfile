@@ -23,6 +23,7 @@ COPY nginx.conf /etc/nginx/nginx.conf
 COPY nginx.default /etc/nginx/sites-available/default
 COPY my_first_process my_first_process
 COPY my_second_process my_second_process
+COPY my_third_process my_third_process
 COPY my_wrapper_script.sh my_wrapper_script.sh
 
 # Precompiling assets
